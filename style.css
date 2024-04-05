@@ -67,3 +67,33 @@ span {
 }
 
 /* effect */
+.collapsible__heading:hover {
+  cursor: pointer;
+  color: hsl(293, 71%, 48%);
+}
+
+/* Collapsibles */
+.collapsible__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible__content {
+  max-height: 100vh;
+  opacity: 1;
+}
+
+/* Collapsibles */
+.collapsible__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible__content {
+  max-height: 100vh;
+  opacity: 1;
+}

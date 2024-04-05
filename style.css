@@ -18,20 +18,12 @@
   4. Improve text rendering
 */
 body {
+  font-family: "Work Sans";
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 /*
-  5. Improve media defaults
-*/
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
+
 /*
   6. Remove built-in form typography styles
 */
@@ -53,3 +45,25 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/* General */
+h1,
+h3 {
+  color: hsl(292, 42%, 14%);
+}
+
+span {
+  font-size: 16px;
+  color: hsl(292, 16%, 49%);
+}
+
+/* Container */
+.container {
+  border: 2px red solid;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+}
+
+/* effect */

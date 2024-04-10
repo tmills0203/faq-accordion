@@ -92,3 +92,14 @@ p {
   max-height: 100vh;
   opacity: 1;
 }
+
+button {
+  align-self: center;
+  background-image: url(/faq-accordion/assets/images/icon-plus.svg);
+  background-size: 100%;
+  border-radius: 50%;
+  border: none; 
+  height: 35px;
+  outline: none; 
+  width: 35px;
+}

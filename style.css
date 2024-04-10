@@ -76,19 +76,11 @@ p {
 }
 
 /* Collapsibles */
-.collapsible__content {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: all 0.3s;
+.collapsible__header {
+  display: flex;
+  justify-content: space-between;
 }
 
-.collapsible--expanded .collapsible__content {
-  max-height: 100vh;
-  opacity: 1;
-}
-
-/* Collapsibles */
 .collapsible__content {
   max-height: 0;
   overflow: hidden;

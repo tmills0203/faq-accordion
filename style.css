@@ -77,6 +77,11 @@ p {
 
 /* Collapsibles */
 
+h3 {
+  overflow: hidden;
+  flex: 1;
+}
+
 button {
   align-self: center;
   background-image: url(/faq-accordion/assets/images/icon-plus.svg);

@@ -75,6 +75,18 @@ p {
   color: hsl(293, 71%, 48%);
 }
 
+/* Header */
+
+header {
+  display: flex;
+}
+
+.star{
+  margin: 0 5px 0 16px;
+  align-items: center;
+  width: 30px;
+}
+
 /* Collapsibles */
 
 h3 {

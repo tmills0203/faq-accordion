@@ -75,10 +75,50 @@ p {
   color: hsl(293, 71%, 48%);
 }
 
+/* Header */
+
+header {
+  display: flex;
+}
+
+.star{
+  margin: 0 5px 0 16px;
+  align-items: center;
+  width: 30px;
+}
+
 /* Collapsibles */
+
+h3 {
+  overflow: hidden;
+  flex: 1;
+}
+
+button {
+  align-self: center;
+  background-image: url(/faq-accordion/assets/images/icon-plus.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  border: none; 
+  height: 35px;
+  outline: 0;
+  padding: 0; 
+  width: 35px;
+}
+
+.collapsible {
+  border-top: 1px solid #ccc;
+}
+
+.collapsible:first-of-type {
+  border-top: none;
+}
+
 .collapsible__header {
   display: flex;
   justify-content: space-between;
+  padding-right: 1.5rem;
 }
 
 .collapsible__content {
@@ -91,15 +131,4 @@ p {
 .collapsible--expanded .collapsible__content {
   max-height: 100vh;
   opacity: 1;
-}
-
-button {
-  align-self: center;
-  background-image: url(/faq-accordion/assets/images/icon-plus.svg);
-  background-size: 100%;
-  border-radius: 50%;
-  border: none; 
-  height: 35px;
-  outline: none; 
-  width: 35px;
 }
